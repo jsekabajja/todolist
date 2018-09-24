@@ -1,0 +1,49 @@
+/* bordered form */
+form{
+    border: 3pxsolid #f1f1f1;
+ }
+/* full-width input */
+   input[type=text], input[type=password]
+ {
+   width: 100%;
+   padding: 12px20px;
+   margin: 8px0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing:  border-box;
+ }
+/* set a style for all bottons*/
+botton{
+   background-color: aqua
+   padding: 14px20px;
+   margin:8px0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+ }
+ /* center the avatar image inside this container*/
+ .imgcontainer{
+     text-align: center;
+     margin: 24px012px0;
+ }
+ /* Add padding to container*/
+ .container{
+     padding: 16px;
+     margin: auto;
+     width: 1600px;
+ }
+ /* the "forget password" text */
+  span.psw{
+     float: right;
+     padding-top: 16px;
+  }
+  /* change style for span and cancel button on extra small screen */
+  @media screen and(max-width:300px)
+      span.psw{
+      display: block;
+      float: none;
+  }
+  .cencelbtn{
+      width: 100%
+  }
+}

@@ -1,0 +1,43 @@
+*{box-sizing: border-box}
+/* Add padding to containers*/
+.container{
+    padding: 10px;
+    margin: auto;
+    width: 320px;overflow: z;
+    background-color: #f156aba6
+}
+/* full-width  input fields*/
+input[type=text], input[type=password]{
+    widows: 100%;
+    padding: 10px;
+    margin: 5px022px0;
+    display: inline-block;
+    border: #1a17d4;
+}
+input[type=text]:focus,input[type=password]{
+    background-color: rgb(30, 27, 207);
+    outline: none;
+}
+/* overwrite default styles of hr */
+hr{
+    border:1px solid #706018;
+    margin- botton:25px;
+}
+/* set a style for the submit/select button*/
+.selectbtn{
+    background-color: #4caf50;
+    color:gray;
+    padding: 16px20px;
+    margin: 8px0;
+    cursor: pointer;
+    width: 100%;
+    opacity:0.9;
+}
+.selectbtn:hover{
+    opacity: 1
+}
+/* set a white background color and center the text of the "sign in" section*/
+.sign in{
+    background-color: #1908b4;
+    text-align: center;
+}

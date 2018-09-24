@@ -1,0 +1,63 @@
+*{box-sizing: border-box}
+/*full-width input fields*/
+input [type=text], input[type=password] {
+    width: 100%;
+    padding:15px;
+    margin:5px022px0;
+    display:inline-block;
+    border: none;
+    background: #00000079
+    }
+    input[type=text]: focus, input[type=password]: focus {
+        background-color:#add;
+        outline:none;
+    }
+    hr {
+        border:1px solid hsl(318, 63%, 55%);
+        margin- bottom: 25px:
+    }
+      /* set a style for all buttons */
+      button {
+          background- color: #4caf50;
+          color:black;
+          padding:14px 20px;
+          margin:8px0;
+          cursor:point;
+          width:100%;
+          opacity:0.9;
+      }
+      button:hover {
+          opacity:1;
+      }
+      /* Extra styles for the cancel button*/
+      .cancelbtn {
+          padding:14px 20px;
+          background-color:#f44336;
+      }
+      /* float cencel and signup buttons and add an equal width*/
+      .cancelbtn, .signupbtn {
+         float:left;
+         width:50%;
+      }
+      /* add paddingto container ellements */
+      .container{
+          padding:16px;
+          margin:auto;
+          width: 800px;
+        
+          background-color:blue;
+      }
+       /* clear floats */
+       .cleaarfix::after {
+           content:"";
+           clear:both;
+           display:table;
+       } 
+       /* change styles for cancel button and on entra small screen */
+       @media screen and (max-width:300px){
+           .cancelbtn, .signup{
+               width:100%;
+           }
+       }
+    
+}

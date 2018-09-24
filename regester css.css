@@ -1,0 +1,49 @@
+*{boa-sizing:border-box}
+/* add padding to containers*/
+.container{
+    padding: 5px;
+    margin: auto;
+    width:310px;
+    background-color:rgb(110, 110, 165) 
+}
+/* full-width input fields*/
+input[type=text], input[type=password]{
+    width: 90%;
+    padding:15px;
+    margin: 10px022px0;
+    display: inline-block;
+    border:teal;
+    background: #df1212;
+}
+input[type=text]:focus,input[type=password]:focus{
+    background-color:rgb(175, 103, 103);
+    outline:none;
+}
+/* overwrite default styles of hr*/
+hr{
+    border:1px solid #3c06b9;
+    margin-button:25px;
+}
+/*set a style for submit/regiser button*/
+.registerbtn{
+    background-color: #4caf50;
+    color:rgb(48, 16, 189);
+    padding:16px20px;
+    margin: 8px0;
+    border:none;
+    cursor: pointer;
+    width:100%;
+    opacity:0.9;
+}
+.registerbtn:hover{
+    opacity:1;
+}
+/* add a blue text color to link*/
+a{
+    color: dodgerblue;
+}
+/* set a grey background color and center the text of the "sign in" section*/
+.sign in{
+    background-color:#1a0c97;
+    tex-align:center;
+}
